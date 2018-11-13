@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace BingSearchApisQuickstart
 {
-    public static class BingSearch
+    public class BingSearch
     {
         // Enter a valid subscription key.
         const string accessKey = "f38c5af144334e409d3d601184b8039a";

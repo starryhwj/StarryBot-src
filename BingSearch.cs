@@ -18,7 +18,7 @@ namespace BingSearchApisQuickstart
         const string uriBase = "https://api.cognitive.microsoft.com/bing/v7.0/search";
         //const string searchTerm = "Microsoft Cognitive Services";
 
-        static string Search(string searchTerm)
+        public static string Search(string searchTerm)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             var returnResult = "";

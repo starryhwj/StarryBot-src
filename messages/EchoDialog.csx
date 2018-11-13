@@ -41,8 +41,8 @@ public class EchoDialog : IDialog<object>
         }
         else
         {
-            //var reslut = BingSearch.Search(message.Text);
-            var reslut = "Hello world";
+            var reslut = BingSearch.Search(message.Text);
+            //var reslut = "Hello world";
             //await context.PostAsync($"{this.count++}: You said {message.Text} at {DateTime.Now} by VS");
             await context.PostAsync($"{this.count++}: {reslut}");
             context.Wait(MessageReceivedAsync);
